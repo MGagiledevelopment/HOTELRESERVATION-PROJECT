@@ -1,0 +1,17 @@
+@import url(fonts.css);
+
+
+.header{
+    background-color: rgb( 55, 210, 177 );
+    width: 100%;
+    height: 35rem;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
+    color:white;
+    display:flex;
+    align-items: center;
+    padding-left: 10rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+}

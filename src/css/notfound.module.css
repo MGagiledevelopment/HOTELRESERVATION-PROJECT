@@ -1,0 +1,16 @@
+.notFound{
+    background-color: rgb(211, 99, 99);
+    font-size: 3rem;
+    color:white;
+    font-family: 'Roboto';
+    height: 39rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h6{
+    margin-top: 3rem;
+}
+
