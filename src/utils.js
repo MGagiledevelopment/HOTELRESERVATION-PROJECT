@@ -20,16 +20,43 @@ export const priceTransformer = (price) => {
   } else return 4;
 };
 
-// export const sizeTransformer = (size) =>{
 
-// 	if (size === "Pequeño") {
-// 	   return 10
-//    } else if (size === "Mediano") {
-// 	   return 19
-//    } else
-// 	   return 20
 
-// }
+//FUNCION PARA LAS FECHAS DENTRO DE LA CARD //
+
+export let dateCardConversorFrom = (date) => {
+
+  let newDate = new Date(date)
+  //A CONTINUCACION UTILICE UNA FUNCION INTERNA DE JS PARA HACER MAS SENCILLA LA LECTURA DE LA FECHA //
+  let enUSFormatter = new Intl.DateTimeFormat("es-AR", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }); 
+  
+ return "Desde el " + enUSFormatter.format(newDate)
+
+}
+//LA REPETÍ //
+export let dateCardConversorTo = (date) => {
+
+  let newDate = new Date(date)
+  let enUSFormatter = new Intl.DateTimeFormat("es-AR", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }); 
+  
+ return "Hasta el " + enUSFormatter.format(newDate)
+
+}
+
+
+
+//FUNCION PARA GENERAR LA LISTA FILTRADA QUE SE MUESTRA EN LIST // 
+
 
 export let filterHotels = (
   arrayHotels,
@@ -42,11 +69,13 @@ export let filterHotels = (
   const filteredArray = arrayHotels
 
     .filter(function (hotel) {
-      console.log(
-        "esta es la fecha DESDE del hotel: " + hotel.availabilityFrom
-      );
-      console.log("esta es la fecha DESDE del INPUT: " + startDate);
-      console.log("esta es la fecha HASTA del INPUT: " + endDate);
+
+
+      // console.log(
+      //   "esta es la fecha DESDE del hotel: " + hotel.availabilityFrom
+      // );
+      // console.log("esta es la fecha DESDE del INPUT: " + startDate);
+      // console.log("esta es la fecha HASTA del INPUT: " + endDate);
 
       if (startDate === " " || endDate === " ") {
         return hotel;
@@ -56,6 +85,9 @@ export let filterHotels = (
         );
       } else return hotel;
     })
+
+
+
 
     .filter(function (hotel) {
       if (country !== "all") {
@@ -87,6 +119,9 @@ export let filterHotels = (
 };
 
 //FUNCIONES PARA MOSTRAR FILTRO EN EL HEADER //
+//fecha
+
+
 
 //pais
 

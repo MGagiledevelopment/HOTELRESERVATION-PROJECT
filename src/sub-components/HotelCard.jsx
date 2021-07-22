@@ -22,7 +22,8 @@ export default function HotelCard(props) {
     <div className={CardStyles.card}>
       <img id="img" src={props.photo} alt="hotel" />
       <h2>{props.name}</h2>
-      <div></div>
+      <div>{props.availabilityFrom}</div>
+      <div>{props.availabilityTo}</div>
       <p>{props.description}</p>
       <div id="location"> {props.location}</div>
 

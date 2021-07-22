@@ -3,7 +3,8 @@ import HotelCard from "../sub-components/HotelCard";
 import ListStyles from "../css/list.module.css";
 import NotFound from "../sub-components/NotFound";
 import { filterHotels } from "../utils"
-
+import { dateCardConversorFrom } from "../utils";
+import { dateCardConversorTo } from "../utils";
 export default function List(props) {
 
    let filteredHotel = filterHotels( 
@@ -31,8 +32,8 @@ export default function List(props) {
               location={hotel.city + hotel.country}
               rooms={hotel.rooms}
               price={hotel.price}
-              availabilityFrom={hotel.availabilityFrom}
-              availabilityTo={hotel.availabilityTo}
+              availabilityFrom={dateCardConversorFrom(hotel.availabilityFrom)}
+              availabilityTo={dateCardConversorTo(hotel.availabilityTo)}
             />
           );
         })}

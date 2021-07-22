@@ -1,7 +1,7 @@
 .card {
   margin: 5rem;
   border: 0.1rem solid grey;
-  height: 40rem;
+  height: 45rem;
   width: 30rem;
   display: flex;
   justify-content: space-around;

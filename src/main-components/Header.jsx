@@ -9,7 +9,7 @@ export default function Header (props) {
         <div className={HeaderStyles.header}>
         <h1 className={HeaderStyles.title} >HOTELES </h1>
         <div className={HeaderStyles.filters}>
-        <div>fecha</div>
+        <div>*acá filtro fecha*</div>
         <div>{showCountry(props.filter.country)}</div>
         <div>{showPrice(props.filter.price)}</div>
         <div>{showSize(props.filter.size)}</div>
