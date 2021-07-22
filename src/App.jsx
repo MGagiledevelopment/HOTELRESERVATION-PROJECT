@@ -13,6 +13,15 @@ function App() {
 
  let [listaHoteles, setListaHoteles] = useState(hotelsData) 
 
+ let [startDate, setStartDate] = useState(" ")
+//  console.log(startDate)
+
+
+
+
+ let [endDate, setEndDate] = useState(" ")
+//  console.log(endDate)
+
  let [country, setCountry] = useState("all")
 
  let [price, setPrice] = useState("all")
@@ -20,7 +29,6 @@ function App() {
  let [size, setSize] = useState("all")
 
 
- 
 
  let actualizador = (filtrado) =>{
    setListaHoteles(filtrado)
@@ -31,14 +39,14 @@ function App() {
  
   return (
     <div className="App">
-    <Header />
+    <Header filter={{country,price,size}}/>
     <Filters listaHotelesActualizada={actualizador}
              listaHoteles={listaHoteles} 
-             filter={{country, price, size}}
-             setter={{setCountry,setPrice,setSize}} />
+             filter={{startDate, endDate, country, price, size}}
+             setter={{setStartDate, setEndDate ,setCountry,setPrice,setSize}} />
 
     <List listaHoteles={listaHoteles} 
-          filter={{country, price, size}}/>
+          filter={{startDate, endDate,country, price, size}}/>
 
     </div>
   );

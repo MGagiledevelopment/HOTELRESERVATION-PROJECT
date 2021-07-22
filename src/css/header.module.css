@@ -1,17 +1,32 @@
 @import url(fonts.css);
 
-
+.title{
+font-size: 6rem;
+font-weight: bold;
+letter-spacing: 2.3rem;
+}
 .header{
     background-color: rgb( 55, 210, 177 );
     width: 100%;
-    height: 35rem;
+    height: 40rem;
     border-top-left-radius:1rem;
     border-top-right-radius:1rem;
     color:white;
     display:flex;
+    flex-direction: column;
     align-items: center;
-    padding-left: 10rem;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.3rem;
-    font-size: 3rem;
+    font-size: 2.3rem;
+}
+
+.filters{
+ /* border:1px solid red; */
+ height: 20rem;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+ justify-content: space-evenly;
+
 }

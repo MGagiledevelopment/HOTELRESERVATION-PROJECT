@@ -8,13 +8,13 @@ export default function List(props) {
 
    let filteredHotel = filterHotels( 
       props.listaHoteles,
+      props.filter.startDate,
+      props.filter.endDate,
       props.filter.country,
       props.filter.price,
       props.filter.size
    )
-// console.log(props.filter.size)
- 
-  
+
 
   if (filteredHotel.length !== 0) {
     
