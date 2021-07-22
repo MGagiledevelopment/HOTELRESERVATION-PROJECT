@@ -1,4 +1,6 @@
-// import { hotelsData } from "./back-info";
+
+import { AttachMoneyOutlined } from "@material-ui/icons";
+
 
 export const sizeTransformer = (size) => {
   if (size < 10) {
@@ -20,43 +22,73 @@ export const priceTransformer = (price) => {
   } else return 4;
 };
 
-
-
 //FUNCION PARA LAS FECHAS DENTRO DE LA CARD //
 
 export let dateCardConversorFrom = (date) => {
-
-  let newDate = new Date(date)
+  let newDate = new Date(date);
   //A CONTINUCACION UTILICE UNA FUNCION INTERNA DE JS PARA HACER MAS SENCILLA LA LECTURA DE LA FECHA //
   let enUSFormatter = new Intl.DateTimeFormat("es-AR", {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
-  }); 
-  
- return "Desde el " + enUSFormatter.format(newDate)
+  });
 
-}
+  return "Desde el " + enUSFormatter.format(newDate);
+};
 //LA REPETÍ //
 export let dateCardConversorTo = (date) => {
-
-  let newDate = new Date(date)
+  let newDate = new Date(date);
   let enUSFormatter = new Intl.DateTimeFormat("es-AR", {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
-  }); 
-  
- return "Hasta el " + enUSFormatter.format(newDate)
+  });
 
-}
+  return "Hasta el " + enUSFormatter.format(newDate);
+};
 
+// FUNCION RENDERIZADO DE SIGNOS PESOS //
 
+export const iconPrice = (price) => {
+  if (price === 1) {
+    return (
+      <span>
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" color="disabled" />
+        <AttachMoneyOutlined fontSize="large" color="disabled" />
+        <AttachMoneyOutlined fontSize="large" color="disabled" />
+      </span>
+    );
+  } else if (price === 2) {
+    return (
+      <span>
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" color="disabled" />
+        <AttachMoneyOutlined fontSize="large" color="disabled" />
+      </span>
+    );
+  } else if (price === 3) {
+    <span>
+      <AttachMoneyOutlined fontSize="large" />
+      <AttachMoneyOutlined fontSize="large" />
+      <AttachMoneyOutlined fontSize="large" />
+      <AttachMoneyOutlined fontSize="large" color="disabled" />
+    </span>;
+  } else
+    return (
+      <span>
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" />
+      </span>
+    );
+};
 
-//FUNCION PARA GENERAR LA LISTA FILTRADA QUE SE MUESTRA EN LIST // 
-
+//FUNCION PARA GENERAR LA LISTA FILTRADA QUE SE MUESTRA EN LIST //
 
 export let filterHotels = (
   arrayHotels,
@@ -69,8 +101,6 @@ export let filterHotels = (
   const filteredArray = arrayHotels
 
     .filter(function (hotel) {
-
-
       // console.log(
       //   "esta es la fecha DESDE del hotel: " + hotel.availabilityFrom
       // );
@@ -85,9 +115,6 @@ export let filterHotels = (
         );
       } else return hotel;
     })
-
-
-
 
     .filter(function (hotel) {
       if (country !== "all") {
@@ -121,8 +148,6 @@ export let filterHotels = (
 //FUNCIONES PARA MOSTRAR FILTRO EN EL HEADER //
 //fecha
 
-
-
 //pais
 
 export let showCountry = (country) => {
@@ -150,13 +175,10 @@ export let showPrice = (price) => {
   } else return "De cualquier precio";
 };
 
-
 //tamaño
 
-export let showSize = (size) =>{
-  if (size !== "all"){
-    return "De tamaño " + size.toLowerCase()
-  } else return "De cualquier tamaño"
-
-}
-
+export let showSize = (size) => {
+  if (size !== "all") {
+    return "De tamaño " + size.toLowerCase();
+  } else return "De cualquier tamaño";
+};

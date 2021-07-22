@@ -1,6 +1,8 @@
 import React from "react";
 import Swal from 'sweetalert2';
 import CardStyles from "../css/cards.module.css";
+import { iconPrice } from "../utils";
+
 
 export default function HotelCard(props) {
     let alert = () =>{
@@ -29,7 +31,7 @@ export default function HotelCard(props) {
 
       <section className={CardStyles.bottom}>
         <div id="rooms"> {props.rooms} habitaciones </div>
-        <div id="price"> {props.price} </div>
+        <div id="price"> {iconPrice(props.price)}</div>
       </section>
 
       <button onClick={alert} className={CardStyles.button}>Reservar</button>
