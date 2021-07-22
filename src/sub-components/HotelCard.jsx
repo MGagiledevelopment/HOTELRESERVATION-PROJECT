@@ -27,11 +27,11 @@ export default function HotelCard(props) {
       <div>{props.availabilityFrom}</div>
       <div>{props.availabilityTo}</div>
       <p>{props.description}</p>
-      <div id="location"> {props.location}</div>
+      <div > {props.location}</div>
 
       <section className={CardStyles.bottom}>
-        <div id="rooms"> {props.rooms} habitaciones </div>
-        <div id="price"> {iconPrice(props.price)}</div>
+        <div > {props.rooms} habitaciones </div>
+        <div > {iconPrice(props.price)}</div>
       </section>
 
       <button onClick={alert} className={CardStyles.button}>Reservar</button>

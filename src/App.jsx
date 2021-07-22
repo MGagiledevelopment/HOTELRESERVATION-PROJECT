@@ -39,7 +39,7 @@ function App() {
  
   return (
     <div className="App">
-    <Header filter={{country,price,size}}/>
+    <Header filter={{startDate,endDate,country,price,size}}/>
     <Filters listaHotelesActualizada={actualizador}
              listaHoteles={listaHoteles} 
              filter={{startDate, endDate, country, price, size}}

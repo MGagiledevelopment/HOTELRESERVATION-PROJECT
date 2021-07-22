@@ -1,6 +1,5 @@
-
 import { AttachMoneyOutlined } from "@material-ui/icons";
-
+import Swal from "sweetalert2";
 
 export const sizeTransformer = (size) => {
   if (size < 10) {
@@ -101,17 +100,27 @@ export let filterHotels = (
   const filteredArray = arrayHotels
 
     .filter(function (hotel) {
-      // console.log(
-      //   "esta es la fecha DESDE del hotel: " + hotel.availabilityFrom
-      // );
-      // console.log("esta es la fecha DESDE del INPUT: " + startDate);
-      // console.log("esta es la fecha HASTA del INPUT: " + endDate);
+      //estas dos variables de a continuacion lo que hacen es pasarme los valores a UNIX para compararlos
+      // en la condicion que armé debajo
+      const newDateEnd = new Date(endDate + "T00:00:00").getTime(); // el timestamp se agrega para que se regularice el desfasaje de tiempo
+      const newDateStart = new Date(startDate + "T00:00:00").getTime();
+
+      console.log(newDateStart);
+      console.log(newDateEnd);
 
       if (startDate === " " || endDate === " ") {
         return hotel;
-      } else if (startDate <= endDate) {
+      } else if (newDateStart >= newDateEnd) {
+        Swal.fire({
+          icon: "error",
+          title: "La fecha de ingreso NO puede ser mayor a la de egreso",
+          showConfirmButton: true,
+        });
+        return hotel;
+      } else if (newDateStart <= newDateEnd) {
         return (
-          hotel.availabilityFrom <= endDate && hotel.availabilityTo >= startDate
+          hotel.availabilityTo <= newDateEnd &&
+          hotel.availabilityTo >= newDateStart
         );
       } else return hotel;
     })
