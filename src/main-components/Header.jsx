@@ -14,8 +14,8 @@ export default function Header (props) {
         <div className={HeaderStyles.header}>
         <h1 className={HeaderStyles.title} >HOTELES </h1>
         <div className={HeaderStyles.filters}>
-        <div>{dateCardConversorFrom(props.filter.startDate)} </div>
-        <div>{dateCardConversorTo(props.filter.endDate)}</div>
+        {/* <div>{dateCardConversorFrom(props.filter.startDate)} </div> */}
+        {/* <div>{dateCardConversorTo(props.filter.endDate)}</div> */}
         <div>{showCountry(props.filter.country)}</div>
         <div>{showPrice(props.filter.price)}</div>
         <div>{showSize(props.filter.size)}</div>

@@ -26,6 +26,7 @@ export default function List(props) {
         {filteredHotel.map(function (hotel) {
           return (
             <HotelCard
+              key={hotel.slug}
               photo={hotel.photo}
               name={hotel.name}
               description={hotel.description}

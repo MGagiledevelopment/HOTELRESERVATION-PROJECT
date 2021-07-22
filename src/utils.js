@@ -70,12 +70,13 @@ export const iconPrice = (price) => {
       </span>
     );
   } else if (price === 3) {
+    return(
     <span>
       <AttachMoneyOutlined fontSize="large" />
       <AttachMoneyOutlined fontSize="large" />
       <AttachMoneyOutlined fontSize="large" />
       <AttachMoneyOutlined fontSize="large" color="disabled" />
-    </span>;
+    </span>);
   } else
     return (
       <span>
@@ -119,8 +120,8 @@ export let filterHotels = (
         return hotel;
       } else if (newDateStart <= newDateEnd) {
         return (
-          hotel.availabilityTo <= newDateEnd &&
-          hotel.availabilityTo >= newDateStart
+          hotel.availabilityTo >= newDateEnd &&
+          hotel.availabilityFrom <= newDateStart
         );
       } else return hotel;
     })
