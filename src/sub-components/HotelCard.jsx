@@ -23,18 +23,18 @@ export default function HotelCard(props) {
   return (
     <div className={CardStyles.card}>
       <img className={CardStyles.photo} src={props.photo} alt="hotel" />
-      <h2>{props.name}</h2>
-      <div>{props.availabilityFrom}</div>
-      <div>{props.availabilityTo}</div>
-      <p>{props.description}</p>
-      <div > {props.location}</div>
+      <h2 className={CardStyles.title}>{props.name}</h2>
+      <div className={CardStyles.dates}>{props.availabilityFrom}</div>
+      <div className={CardStyles.dates}>{props.availabilityTo}</div>
+      <p className={CardStyles.description}>{props.description}</p>
+      <div className={CardStyles.location}> {props.location}</div>
 
       <section className={CardStyles.bottom}>
         <div > {props.rooms} habitaciones </div>
         <div > {iconPrice(props.price)}</div>
       </section>
 
-      <button onClick={alert} className={CardStyles.button}>Reservar</button>
+      <button onClick={alert} className={CardStyles.button}>RESERVAR</button>
     </div>
   );
 }

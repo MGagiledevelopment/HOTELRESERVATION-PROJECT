@@ -1,6 +1,7 @@
 .notFound{
+    margin-top: 2rem;
     background-color: rgb(211, 99, 99);
-    font-size: 3rem;
+    font-size: 5rem;
     color:white;
     font-family: 'Roboto';
     height: 39rem;
