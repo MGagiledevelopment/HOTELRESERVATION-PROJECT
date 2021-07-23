@@ -111,7 +111,7 @@ export let filterHotels = (
 
       if (startDate === " " || endDate === " ") {
         return hotel;
-      } else if (newDateStart >= newDateEnd) {
+      } else if (newDateStart > newDateEnd) {
         Swal.fire({
           icon: "error",
           title: "La fecha de ingreso NO puede ser mayor a la de egreso",

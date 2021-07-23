@@ -13,13 +13,13 @@ function App() {
 
  let [listaHoteles, setListaHoteles] = useState(hotelsData) 
 
- let [startDate, setStartDate] = useState(" ")
+ let [startDate, setStartDate] = useState("")
 //  console.log(startDate)
 
 
 
 
- let [endDate, setEndDate] = useState(" ")
+ let [endDate, setEndDate] = useState("")
 //  console.log(endDate)
 
  let [country, setCountry] = useState("all")
