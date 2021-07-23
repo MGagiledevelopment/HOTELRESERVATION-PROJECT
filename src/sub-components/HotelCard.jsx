@@ -30,8 +30,8 @@ export default function HotelCard(props) {
       <div className={CardStyles.location}> {props.location}</div>
 
       <section className={CardStyles.bottom}>
-        <div > {props.rooms} habitaciones </div>
-        <div > {iconPrice(props.price)}</div>
+        <div className={CardStyles.rooms} > <i class="fas fa-bed"></i> {props.rooms} habitaciones </div>
+        <div className={CardStyles.price}> {iconPrice(props.price)}</div>
       </section>
 
       <button onClick={alert} className={CardStyles.button}>RESERVAR</button>

@@ -30,7 +30,7 @@ export default function List(props) {
               photo={hotel.photo}
               name={hotel.name}
               description={hotel.description}
-              location={hotel.city + hotel.country}
+              location={hotel.city +","+ " " + hotel.country}
               rooms={hotel.rooms}
               price={hotel.price}
               availabilityFrom={dateCardConversorFrom(hotel.availabilityFrom)}
