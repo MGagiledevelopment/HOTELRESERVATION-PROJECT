@@ -12,8 +12,12 @@ export default function Header (props) {
 
     return (
         <div className={HeaderStyles.header}>
-             {/* <video src="../images/video.mp4" className={HeaderStyles.video} width="30%"name="hotelvideo" autoplay loop></video> */}
         <h1 className={HeaderStyles.title} >HOTELES </h1>
+           
+        <video autoPlay muted loop className={HeaderStyles.video} >
+        <source src='./images/portada.mp4' type='video/mp4'></source>
+        </video>
+           
         <div className={HeaderStyles.filters}>
         <div>{`${ props.filter.startDate !== "" ? dateCardConversorFrom(props.filter.startDate + "T00:00:00") : "Desde cualquier fecha" }`} </div>
         <div>{`${ props.filter.endDate !== "" ? dateCardConversorTo(props.filter.endDate + "T00:00:00") : "Hasta cualquier fecha" }`}</div>
