@@ -10,8 +10,14 @@ import Button from "../sub-components/Button";
 export default function Filters(props) {
   return (
     <div className={FiltersStyles.filters}>
-      <InputStartDate startDate={props.filter.startDate} setStartDate={props.setter.setStartDate} />
-      <InputEndDate endDate={props.filter.endDate} setEndDate={props.setter.setEndDate}/>
+      <InputStartDate
+        startDate={props.filter.startDate}
+        setStartDate={props.setter.setStartDate}
+      />
+      <InputEndDate
+        endDate={props.filter.endDate}
+        setEndDate={props.setter.setEndDate}
+      />
 
       <SelectCountry
         inputValue={props.filter.country}
@@ -33,7 +39,6 @@ export default function Filters(props) {
         setPrice={props.setter.setPrice}
         setCountry={props.setter.setCountry}
         setSize={props.setter.setSize}
-
       />
     </div>
   );

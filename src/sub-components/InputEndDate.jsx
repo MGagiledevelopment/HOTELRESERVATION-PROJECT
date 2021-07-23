@@ -4,7 +4,6 @@ import FiltersStyles from "../css/filters.module.css";
 export default function InputEndDate({ endDate, setEndDate }) {
   const handleDate = (e) => {
     const inputDate = e.target.value;
-
     setEndDate(inputDate);
   };
 

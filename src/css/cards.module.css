@@ -10,105 +10,99 @@
   font-family: "Roboto";
   border-radius: 1rem;
   -webkit-box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.76);
--moz-box-shadow:    0px 0px 12px 0px rgba(50, 50, 50, 0.76);
-box-shadow:         0px 0px 12px 0px rgba(50, 50, 50, 0.76);
-background-color: white;
+  -moz-box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.76);
+  box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.76);
+  background-color: white;
 }
 
-
-.photo{
+.photo {
   width: 100%;
 }
-.title{
+.title {
   margin: 1.2rem;
   font-size: 2.7rem;
 }
-.dates{
-  background-color: rgb(185,169,155);
-  color:white;
+.dates {
+  background-color: rgb(185, 169, 155);
+  color: white;
   width: 100%;
   height: 5rem;
   text-align: center;
   font-size: 2rem;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
   margin: 1rem;
-
 }
-.description{
+.description {
   overflow: scroll;
   font-size: 1.7rem;
   line-height: 1.8;
-  padding:1rem ;
+  padding: 1rem;
 }
 
-.location{
-  background-color: rgb(146,122,103);
-  color:white;
+.location {
+  background-color: rgb(146, 122, 103);
+  color: white;
   width: 100%;
   height: 5rem;
   text-align: center;
   font-size: 2rem;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  
   margin: 1rem;
 }
 
-.bottom{
-  
-display:flex;
-justify-content: space-around;
-align-items: center;
-width: 100%;
-
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
-.rooms{
-  background-color: rgb(146,122,103);
-  color:white;
+.rooms {
+  background-color: rgb(146, 122, 103);
+  color: white;
   width: 100%;
   height: 4rem;
   text-align: center;
   font-size: 1.7rem;
   font-weight: thin;
-  display:flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 1rem;
 }
 
-.price{
-  background-color: rgb(146,122,103);
-  color:white;
+.price {
+  background-color: rgb(146, 122, 103);
+  color: white;
   width: 100%;
   height: 4rem;
   text-align: center;
   font-size: 2rem;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  
   margin: 1rem;
 }
 
-.button{
-    width:100%;
-    height: 6rem;
-    background-color: rgb(185,169,155);
-    border-style: none;
-    border-radius: 1rem;
-    color:white;
-    font-size: 1.8rem;
-    font-weight: bolder;
-    letter-spacing: 0.2rem;
-    -webkit-box-shadow: 3px 2px 9px 0px rgba(50, 50, 50, 0.62);
-    -moz-box-shadow:    3px 2px 9px 0px rgba(50, 50, 50, 0.62);
-    box-shadow:         3px 2px 9px 0px rgba(50, 50, 50, 0.62);
+.button {
+  width: 100%;
+  height: 6rem;
+  background-color: rgb(185, 169, 155);
+  border-style: none;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  -webkit-box-shadow: 3px 2px 9px 0px rgba(50, 50, 50, 0.62);
+  -moz-box-shadow: 3px 2px 9px 0px rgba(50, 50, 50, 0.62);
+  box-shadow: 3px 2px 9px 0px rgba(50, 50, 50, 0.62);
 }
 
-.button:hover{
-  background-color: rgba(185,169,155,0.5);
+.button:hover {
+  background-color: rgba(185, 169, 155, 0.5);
 }

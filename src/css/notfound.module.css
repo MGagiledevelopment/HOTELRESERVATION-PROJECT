@@ -1,17 +1,16 @@
-.notFound{
-    margin-top: 2rem;
-    background-color: rgb(211, 99, 99);
-    font-size: 5rem;
-    color:white;
-    font-family: 'Roboto';
-    height: 39rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.notFound {
+  margin-top: 2rem;
+  background-color: rgb(211, 99, 99);
+  font-size: 5rem;
+  color: white;
+  font-family: "Roboto";
+  height: 39rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.h6{
-    margin-top: 3rem;
+.h6 {
+  margin-top: 3rem;
 }
-

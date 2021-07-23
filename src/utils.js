@@ -70,13 +70,14 @@ export const iconPrice = (price) => {
       </span>
     );
   } else if (price === 3) {
-    return(
-    <span>
-      <AttachMoneyOutlined fontSize="large" />
-      <AttachMoneyOutlined fontSize="large" />
-      <AttachMoneyOutlined fontSize="large" />
-      <AttachMoneyOutlined fontSize="large" color="disabled" />
-    </span>);
+    return (
+      <span>
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" />
+        <AttachMoneyOutlined fontSize="large" color="disabled" />
+      </span>
+    );
   } else
     return (
       <span>
