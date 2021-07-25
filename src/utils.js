@@ -108,7 +108,7 @@ export let filterHotels = (
       const newDateStart = new Date(startDate + "T00:00:00").getTime();
 
 
-      if (startDate === " " || endDate === " ") {
+      if (startDate === "" || endDate === "") {
         return hotel;
       } else if (newDateStart > newDateEnd) {
         Swal.fire({
@@ -135,7 +135,6 @@ export let filterHotels = (
     .filter(function (hotel) {
       if (price !== "all") {
         let priceCategory = priceTransformer(price);
-        //  console.log(priceCategory)
         return priceCategory === hotel.price;
       }
 
@@ -155,9 +154,7 @@ export let filterHotels = (
 };
 
 //FUNCIONES PARA MOSTRAR FILTRO EN EL HEADER //
-//fecha
 
-//pais
 
 export let showCountry = (country) => {
   if (country !== "all") {
