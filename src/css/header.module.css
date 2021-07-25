@@ -2,11 +2,11 @@
 
 .title {
   font-size: 7rem;
-  border: 1px solid red;
-  font-weight: bold;
   letter-spacing: 2rem;
+  margin-left: 1.2rem;
   z-index: 10;
   text-shadow: 0rem 0.4rem 0.9rem black;
+  padding:0;
 }
 @media screen and (max-width:400px){
   .title {
