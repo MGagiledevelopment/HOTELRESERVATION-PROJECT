@@ -9,7 +9,7 @@ import { dateCardConversorTo } from "../utils";
 export default function Header(props) {
   return (
     <div className={HeaderStyles.header}>
-      <h1 className={HeaderStyles.title}>HOTELES </h1>
+      <h1 className={HeaderStyles.title}>HOTELES</h1>
 
       <video autoPlay muted loop className={HeaderStyles.video}>
         <source src="./images/portada.mp4" type="video/mp4"></source>

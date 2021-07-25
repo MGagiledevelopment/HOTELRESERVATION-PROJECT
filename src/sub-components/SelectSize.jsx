@@ -1,6 +1,4 @@
 import FiltersStyles from "../css/filters.module.css";
-import { hotelsData } from "../back-info";
-import { sizeTransformer } from "../utils";
 
 export default function SelectSize(props) {
   let handlerSize = (event) => {

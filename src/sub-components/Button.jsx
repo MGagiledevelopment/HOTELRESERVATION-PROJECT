@@ -12,16 +12,18 @@ export default function Button(props) {
 
     Swal.fire({
       icon: "info",
+      iconColor:"rgb(146, 122, 103)",
       title: "¡se limpió!",
       timer: 800,
       showConfirmButton: false,
+      
     });
   };
   return (
     <>
       <button onClick={reset} className={FiltersStyles.buttonStyle}>
         {" "}
-        <i class="fas fa-trash-alt"></i> LIMPIAR{" "}
+        <i className="fas fa-trash-alt"></i> LIMPIAR{" "}
       </button>
     </>
   );

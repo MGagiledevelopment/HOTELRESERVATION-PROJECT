@@ -107,8 +107,6 @@ export let filterHotels = (
       const newDateEnd = new Date(endDate + "T00:00:00").getTime(); // el timestamp se agrega para que se regularice el desfasaje de tiempo
       const newDateStart = new Date(startDate + "T00:00:00").getTime();
 
-      console.log(newDateStart);
-      console.log(newDateEnd);
 
       if (startDate === " " || endDate === " ") {
         return hotel;

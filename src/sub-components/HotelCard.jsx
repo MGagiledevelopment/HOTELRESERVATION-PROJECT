@@ -26,7 +26,7 @@ export default function HotelCard(props) {
       <section className={CardStyles.bottom}>
         <div className={CardStyles.rooms}>
           {" "}
-          <i class="fas fa-bed"></i> {props.rooms} habitaciones{" "}
+          <i className="fas fa-bed"></i> {props.rooms} habitaciones{" "}
         </div>
         <div className={CardStyles.price}> {iconPrice(props.price)}</div>
       </section>
