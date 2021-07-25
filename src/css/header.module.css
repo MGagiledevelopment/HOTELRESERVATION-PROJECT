@@ -8,6 +8,11 @@
   z-index: 10;
   text-shadow: 0rem 0.4rem 0.9rem black;
 }
+@media screen and (max-width:400px){
+  .title {
+      font-size: 5rem;
+      }
+}
 
 .video {
   position: absolute;

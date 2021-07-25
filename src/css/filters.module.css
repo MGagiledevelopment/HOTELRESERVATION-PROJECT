@@ -4,6 +4,13 @@
   align-items: center;
   flex-wrap: wrap;
 }
+@media screen and (max-width:400px){
+  .filters {
+      display:flex;
+      flex-direction: column;
+      color:red;
+      }
+}
 
 .buttonStyle {
   background-color: rgb(225, 49, 90);
@@ -23,6 +30,7 @@
 
 .buttonStyle:hover {
   background-color: rgba(225, 49, 90, 0.5);
+  font-size: 1.6rem;
   
 }
 
