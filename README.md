@@ -26,7 +26,7 @@ Decidí utilizar CSS Modules porque me pareció una forma organizada de administ
 
 # DESARROLLO 👨🏽‍💻
 
-- Se conforma de tres componentes principales: <Header/> , <Filters/> y <List/>. 
+- Se conforma de tres componentes principales: < Header /> , < Filters /> y < List />. 
 - Es <Header/> donde se encuentran el titulo y los filtros que se vayan aplicando en </Filters>, para poder leerse en un lenguaje natural.
 - En <Filters/> se encuentra cada uno de los filtros que se pueden aplicar según distintos criterios. Cada uno de ellos es un INPUT cuyo estado es manejado a través de REACT.
 - Finalmente en <List/> encontraremos la lista de hoteles que se instancia dinamicante a medida que se apliquen o "des-apliquen" los filtros.
