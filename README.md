@@ -5,8 +5,7 @@
 # PREVIEW
 
 
-![Grabación de pantalla 2021-07-26 a la(s) 13 57 54](https://user-images.githubusercontent.com/83677143/127029279-d6ee6837-2147-46c7-9c74-9ad39b3261f7.gif)
-
+![preview](https://user-images.githubusercontent.com/83677143/127030414-20ca595d-d5c0-4061-a7b9-e47a935e32b9.gif)
 
 
 # ENLACE A LA APLICACIÓN:
