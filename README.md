@@ -5,8 +5,7 @@
 # PREVIEW
 
 
-<img width="1440" alt="layout" src="https://user-images.githubusercontent.com/83677143/127026399-0c7d48b3-de93-4d6e-953f-20f4ce51700d.png">
-
+![preview](https://user-images.githubusercontent.com/83677143/127030414-20ca595d-d5c0-4061-a7b9-e47a935e32b9.gif)
 
 
 # ENLACE A LA APLICACIÓN:
