@@ -5,7 +5,7 @@
 # PREVIEW
 
 
-<img width="1440" alt="layout" src="https://user-images.githubusercontent.com/83677143/127026399-0c7d48b3-de93-4d6e-953f-20f4ce51700d.png">
+![Grabación de pantalla 2021-07-26 a la(s) 13 57 54](https://user-images.githubusercontent.com/83677143/127029279-d6ee6837-2147-46c7-9c74-9ad39b3261f7.gif)
 
 
 
