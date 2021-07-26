@@ -2,6 +2,8 @@
  Este es el proyecto que le dió cierre al segundo Sprint de trabajo en Acámica para la carrera de Desarrollo Web Front-End.
 
 
+# PREVIEW
+
 
 <img width="1440" alt="layout" src="https://user-images.githubusercontent.com/83677143/127026399-0c7d48b3-de93-4d6e-953f-20f4ce51700d.png">
 
@@ -10,6 +12,8 @@
 # ENLACE A LA APLICACIÓN:
 
 https://reservation-hotel-proyect.netlify.app/
+
+
 
 
 # OBJETIVO 🏅
