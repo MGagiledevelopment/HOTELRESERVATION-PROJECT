@@ -6,7 +6,7 @@ export default function NotFound() {
     <div className={style.notFound}>
       <i class="far fa-frown"></i>
       <h6 className={style.h6}>
-        Lo sentimos, no existe ningun HOTEL con los filtros seleccionados.
+        Lo sentimos, no existe ningún HOTEL con los filtros seleccionados.
       </h6>
     </div>
   );
