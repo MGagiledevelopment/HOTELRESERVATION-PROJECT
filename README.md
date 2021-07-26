@@ -12,7 +12,7 @@ programación y el uso de React como librería.
 
 1. Revisar los requisitos establecidos para la entrega del proyecto.
 2. Descargar los recursos para la creación del proyecto.
-3. Armé un tablero KANBAN para organizarme mejor y tener control sobre los tiempos de  cada parte del proyecto. (Si bien es de mucha ayuda
+3. Armé un tablero "kanban" para organizarme mejor y tener control sobre los tiempos de  cada parte del proyecto. (Si bien es de mucha ayuda
 al comienzo, hubieron cosas que se resolvieron o modificaron logicamente sobre el transcurso del proyecto )
 4. Preparé un entorno REACT de manera local y di los estilos iniciales. 
 
@@ -39,7 +39,7 @@ mas intuitiva que encontré para llevarlo a cabo.
 
 
 
-# CONCLUSION 📃
+# CONCLUSIÓN 📃
 
 ▶︎ Resolver todas la funcionalidades PRIMERO creo que es lo mejor. Para finalmente concentrarse en embellecer el producto. 
 
