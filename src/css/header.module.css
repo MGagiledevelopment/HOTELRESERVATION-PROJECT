@@ -1,4 +1,4 @@
-@import url(fonts.css);
+@import "./fonts.css";
 
 .title {
   font-size: 7rem;
@@ -6,12 +6,12 @@
   margin-left: 1.2rem;
   z-index: 10;
   text-shadow: 0rem 0.4rem 0.9rem black;
-  padding:0;
+  padding: 0;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width: 400px) {
   .title {
-      font-size: 5rem;
-      }
+    font-size: 5rem;
+  }
 }
 
 .video {
