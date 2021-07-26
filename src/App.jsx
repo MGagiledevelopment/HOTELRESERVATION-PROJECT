@@ -4,6 +4,7 @@ import "./css/main-styles.css";
 import Header from "./main-components/Header";
 import Filters from "./main-components/Filters";
 import List from "./main-components/List";
+import Footer from "./main-components/Footer";
 
 function App() {
   let [listaHoteles, setListaHoteles] = useState(hotelsData);
@@ -36,7 +37,12 @@ function App() {
         listaHoteles={listaHoteles}
         filter={{ startDate, endDate, country, price, size }}
       />
+     
+     <Footer />
+
     </div>
+    
+  
   );
 }
 
