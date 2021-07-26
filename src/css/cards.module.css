@@ -92,7 +92,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 @media screen and (max-width:400px){
   .rooms {
@@ -110,7 +111,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 
