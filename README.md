@@ -1,6 +1,10 @@
 # HOTEL RESERVATION PROYECT
  Este es el proyecto que le dió cierre al segundo Sprint de trabajo en Acámica para la carrera de Desarrollo Web Front-End.
 
+# ENLACE AL SITIO:
+
+https://reservation-hotel-proyect.netlify.app/
+
 
 # OBJETIVO 🏅
 
@@ -44,6 +48,9 @@ mas intuitiva que encontré para llevarlo a cabo.
 ▶︎ Resolver todas la funcionalidades PRIMERO creo que es lo mejor. Para finalmente concentrarse en embellecer el producto. 
 
 ▶︎ A veces sobre la marcha del trabajo es cuando uno termina de entender el concepto de lo que debe realizar. Y sobre todas las cosas: aprendiendo.
+
+
+
 
 
 
