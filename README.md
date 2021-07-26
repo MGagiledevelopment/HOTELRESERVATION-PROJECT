@@ -16,5 +16,8 @@ Este es el proyecto que le da cierre al segundo Sprint de trabajo en Acámica pa
 
 # HERRAMIENTAS UTILIZADAS 🛠️
 
+-JAVASCRIPT 
+-REACT
+
 
 # CONCLUSION 📃
