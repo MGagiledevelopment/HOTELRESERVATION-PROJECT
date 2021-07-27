@@ -36,27 +36,27 @@ Decidí utilizar CSS Modules porque me pareció una forma organizada de administ
 # DESARROLLO 👨🏽‍💻
 
 - Se conforma de tres componentes principales: < Header /> , < Filters /> y < List />. 
-- Es < Header /> donde se encuentran el titulo y los filtros que se vayan aplicando en < Filters />, para poder leerse en un lenguaje natural.
-- En < Filters /> se encuentra cada uno de los filtros que se pueden aplicar según distintos criterios. Cada uno de ellos es un INPUT cuyo estado es manejado a través de REACT.
-- Finalmente en < List /> encontraremos la lista de hoteles que se instancia dinamicante a medida que se apliquen o "des-apliquen" los filtros.
-En caso de no existir nada compatible con los filtrosaplicados, se mostrará el mensaje correspondiente.
+- Es < Header /> donde se renderizan en un lenguaje natural: el titulo y los filtros que se vayan aplicando en < Filters />.
+- En < Filters /> están cada uno de los filtros que se pueden aplicar según distintos criterios. Cada uno de ellos es un INPUT cuyo estado es manejado a través de REACT.
+- Finalmente en < List /> encontraremos la lista de hoteles que se instancian dinamicante a medida que se apliquen o "des-apliquen" los filtros.
+En caso de no existir nada compatible con los filtros aplicados, se mostrará el mensaje correspondiente.
 
 
 
 
 # OBSTÁCULOS 📕
 
- El principal obstaculo que tuve desde un principio y que lo entendí sobre el transcurso del proyecto...Fue que tuve que entender que cada una de las partes
-de este formaba parte de un todo y debí que trabajarlo como tal. Manejar los estados desde el componente principal que es <App/> fue la manera
+ El principal obstáculo que tuve desde un principio (y que lo fuí trabajando sobre el transcurso del proyecto), fue entender que cada una de las partes
+de esten proyecto forma parte de un todo y debí que trabajarlo como tal. Manejar los estados desde el componente principal que es < App /> fué la manera
 mas intuitiva que encontré para llevarlo a cabo. 
 
 
 
 # CONCLUSIÓN 📃
 
-▶︎ Resolver todas la funcionalidades PRIMERO creo que es lo mejor. Para finalmente concentrarse en embellecer el producto. 
+▶︎ Resolver todas la funcionalidades PRIMERO creo que es lo mejor. Para finalmente concentrarse en configurar los estilos. 
 
-▶︎ A veces sobre la marcha del trabajo es cuando uno termina de entender el concepto de lo que debe realizar. Y sobre todas las cosas: aprendiendo.
+▶︎ Muchas veces, sobre el transcurso del trabajo es cuando uno termina de entender el concepto de lo que debe realizar. Y sobre todas las cosas: aprendiendo.
 
 
 
