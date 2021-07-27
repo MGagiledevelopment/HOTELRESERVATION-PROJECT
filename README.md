@@ -17,7 +17,7 @@ https://reservation-hotel-proyect.netlify.app/
 
 # OBJETIVO 🏅
 
- El desafío del proyecto se basó la creación de una aplicación web interactiva, poniendo en práctica los fundamentos de la 
+ El desafío del proyecto se basó en la creación de una aplicación web interactiva, poniendo en práctica los fundamentos de la 
 programación y el uso de React como librería.
 
 
