@@ -1,4 +1,4 @@
-# HOTEL RESERVATION PROYECT
+# HOTEL RESERVATION PROJECT
  Este es el proyecto que le dió cierre al segundo Sprint de trabajo en Acámica para la carrera de Desarrollo Web Front-End.
 
 
