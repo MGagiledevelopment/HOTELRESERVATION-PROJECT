@@ -56,7 +56,6 @@ mas intuitiva que encontré para llevarlo a cabo.
 
 ▶︎ Resolver todas la funcionalidades PRIMERO creo que es lo mejor. Para finalmente concentrarse en configurar los estilos. 
 
-▶︎ Muchas veces, sobre el transcurso del trabajo es cuando uno termina de entender el concepto de lo que debe realizar. Y sobre todas las cosas: aprendiendo.
 
 
 
