@@ -47,8 +47,7 @@ En caso de no existir nada compatible con los filtros aplicados, se mostrará el
 # OBSTÁCULOS 📕
 
  El principal obstáculo que tuve desde un principio (y que lo fuí trabajando sobre el transcurso del proyecto), fue entender que cada una de las partes
-de esten proyecto forma parte de un todo y debí que trabajarlo como tal. Manejar los estados desde el componente principal que es < App /> fué la manera
-mas intuitiva que encontré para llevarlo a cabo. 
+de esten proyecto forma parte de un todo y debí que trabajarlo como tal. Manejar los estados a través del "Prop Drilling"  fué la mejor manera de llevarlo a cabo.
 
 
 
