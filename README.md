@@ -2,7 +2,7 @@
  Este es el proyecto que le dió cierre al segundo Sprint de trabajo en Acámica para la carrera de Desarrollo Web Front-End.
 
 
-# PREVIEW
+# VISTA PREVIA
 
 
 ![preview](https://user-images.githubusercontent.com/83677143/127030414-20ca595d-d5c0-4061-a7b9-e47a935e32b9.gif)
