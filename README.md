@@ -1,59 +1,43 @@
 # HOTEL RESERVATION PROJECT
 
-
-# VISTA PREVIA
-
+# PREVIEW
 
 ![preview](https://user-images.githubusercontent.com/83677143/127030414-20ca595d-d5c0-4061-a7b9-e47a935e32b9.gif)
 
-
-# ENLACE A LA APLICACIÓN:
+# APP LINK:
 
 https://reservation-hotel-proyect.netlify.app/
 
+# OBJECTIVE 🏅
 
+The project challenge was based on the creation of an interactive web application, putting into practice the fundamentals of
+programming and the use of React as a library.
 
+# PREPARATION ⚙️
 
-# OBJETIVO 🏅
+1. Review the requirements established for the delivery of the project.
+2. Download the resources for the creation of the project.
+3. I created a "kanban" board to better organize myself and have control over the timing of each part of the project. (Although it is very helpful
+at the beginning, there were things that were logically resolved or modified over the course of the project)
+4. I prepared a REACT environment locally and gave the initial styles.
 
- El desafío del proyecto se basó en la creación de una aplicación web interactiva, poniendo en práctica los fundamentos de la 
-programación y el uso de React como librería.
+I decided to use CSS Modules because it seemed like an organized way to manage the styles.
 
+# DEVELOPMENT 👨🏽‍💻
 
-# PREPARACIÓN ⚙️
+- It is made up of three main components: < Header /> , < Filters /> and < List />.
+- It is < Header /> where the title and the filters that are applied in < Filters /> are rendered in natural language.
+- In < Filters /> are each of the filters that can be applied according to different criteria. Each of them is an INPUT whose state is managed through REACT.
+- Finally, in < List /> we will find the list of hotels that are instantiated dynamically as the filters are applied or "un-applied".
+If there is nothing compatible with the applied filters, the corresponding message will be displayed.
 
-1. Revisar los requisitos establecidos para la entrega del proyecto.
-2. Descargar los recursos para la creación del proyecto.
-3. Armé un tablero "kanban" para organizarme mejor y tener control sobre los tiempos de  cada parte del proyecto. (Si bien es de mucha ayuda
-al comienzo, hubieron cosas que se resolvieron o modificaron logicamente sobre el transcurso del proyecto )
-4. Preparé un entorno REACT de manera local y di los estilos iniciales. 
+# DIFFICULTIES 📕
 
-Decidí utilizar CSS Modules porque me pareció una forma organizada de administrar los estilos. 
+The "prop drilling" technique for state management can become somewhat complicated in larger projects.
 
+# CONCLUSION 📃
 
-
-# DESARROLLO 👨🏽‍💻
-
-- Se conforma de tres componentes principales: < Header /> , < Filters /> y < List />. 
-- Es < Header /> donde se renderizan en un lenguaje natural: el titulo y los filtros que se vayan aplicando en < Filters />.
-- En < Filters /> están cada uno de los filtros que se pueden aplicar según distintos criterios. Cada uno de ellos es un INPUT cuyo estado es manejado a través de REACT.
-- Finalmente en < List /> encontraremos la lista de hoteles que se instancian dinamicante a medida que se apliquen o "des-apliquen" los filtros.
-En caso de no existir nada compatible con los filtros aplicados, se mostrará el mensaje correspondiente.
-
-
-
-
-# OBSTÁCULOS 📕
-
-La técnica de PROP DRILLING para el manejo de estados puede llegar a ser algo enredada en proyectos de mayor tamaño.
-
-
-
-# CONCLUSIÓN 📃
-
-▶︎ Resolver todas la funcionalidades PRIMERO creo que es lo mejor. Para finalmente concentrarse en configurar los estilos. 
-
-
+▶︎ First, solving all the functionality is best. Finally, concentrate on configuring the styles.
 
 
 
